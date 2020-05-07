@@ -1,0 +1,23 @@
+@mixin clear_span {
+    padding: 0;
+    margin: 0;
+}
+
+@mixin align-justify-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@mixin align-center-justify-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@mixin row-align-center-justify-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
